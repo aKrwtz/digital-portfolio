@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- Template: http://creative-agency-template-20151.webflow.io/ -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A. Kruschwitz Photography</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- HOME -->
+    <header>
+        <nav> <!-- nav bar-->
+            <ul>
+                <li><a href="#"><img src="images/logo.png" alt="Logo"></a></li>
+                <li><a class ="text" href="#">HOME</a></li>
+                <li><a class ="text" href="#portfolio-main">PORTFOLIO</a></li>
+                <li><a class ="text" href="#contact-main">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="center"> <!-- background header-->
+            <div class="slogan">
+                <h2>The Beginning</h2>
+                <h2>of a digital portfolio</h2>
+                <p><i><b>Pictures taken by Anne Kruschwitz.</b></i></p>
+            </div>
+        </div>
+    </header>
+
+    <!-- PORTFOLIO -->
+    <main id="portfolio-main">
+        <div class="row">   <!--FIRST ROW-->
+            <section class="portfolio"> <!-- Text Section-->
+                <h1>Latest</h1>
+                <h1>Photographs</h1>
+                <p class="description name">
+                    <i><b>by Anne Kruschwitz</b></i>
+                </p>
+                <p class="description details">
+                    Photographic travel diary of Anne Kruschwitz. 
+                    I want to document everything I come across and
+                     portray it in a natural way and how I remeber 
+                     it from being there myself.
+                </p>
+            </section>
+            <!-- Row 1, Picture 1-->
+            <section class="portfolio animals picture">
+                <div class="hover-overlay" id="animals">
+                    <div class="hover-inner">
+                        <p>ANIMALS</p>
+                        <p class="year"></p>
+                    </div>
+                </div>
+            </section>
+            <!-- Row 1, Picture 2-->
+            <section class="portfolio japan picture">
+                <div class="hover-overlay">
+                    <div class="hover-inner">
+                        <p>JAPAN</p>
+                        <p class="year">2016</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Row 1, Picture 3-->
+            <section class="portfolio alpes picture">
+                <div class="hover-overlay">
+                    <div class="hover-inner">
+                        <p>THE ALPES</p>
+                        <p class="year">2018</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row">   <!-- SECOND ROW-->
+            <!-- Row 2, Picture 1-->
+            <section class="portfolio london18 picture">
+                <div class="hover-overlay">
+                    <div class="hover-inner">
+                        <p>LONDON</p>
+                        <p class="year">2018</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Row 2, Picture 2-->
+            <section class="portfolio london19 picture">
+                <div class="hover-overlay">
+                    <div class="hover-inner">
+                        <p>LONDON</p>
+                        <p class="year">2019</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Row 2, Picture 3-->
+            <section class="portfolio lisabon picture">
+                <div class="hover-overlay">
+                    <div class="hover-inner">
+                        <p>LISBON</p>
+                        <p class="year">2019</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Row 2, Picture 4-->
+            <section class="portfolio norway picture">
+                <div class="hover-overlay">
+                    <div class="hover-inner">
+                        <p>NORWAY</p>
+                        <p class="year">2019 / 2020</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- CONTACT -->
+    <main id="contact-main">    <!-- Title-->
+        <section class="contact-title">
+            <h3>Write me a letter</h3>
+            <h4>I appreciate your ideas</h4>
+        </section>
+        
+        <section class="message-form">  <!-- Contact Form-->
+            <form action="">
+                <label for="name">NAME</label>
+                <input type="text" name="name" placeholder="Enter your name">
+    
+                <label for="mail">EMAIL ADRESS</label>
+                <input type="text" name="mail" placeholder="Enter your email">
+    
+                <label for="message">YOUR MESSAGE</label>
+                <input type="text" name="message" placeholder="What is your message?">
+    
+                <input type="submit" value="SUBMIT">
+            </form>
+        </section>
+    </main> 
+    
+</body>
+</html>
